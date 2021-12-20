@@ -1,0 +1,50 @@
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column; 
+    padding:10px;
+    margin-top:150px;
+    font-weight: bolder;
+    color:#0a0a0a;
+
+ }
+ button{
+     padding:10px;
+      margin:10px;
+      border-radius: 18px;
+      border:none;
+      font-weight: bolder;
+      box-shadow: 5px 5px 15px rgb(10, 0, 0);
+ }
+ img{
+ 
+    width:200px;
+    height:200px;
+    padding:5px;
+ 
+ }
+ #search{
+     width:50%;
+     border:none;
+     border-radius: 18px;
+     padding:10px;
+     box-shadow: 5px 5px 15px rgb(10, 0, 0);
+     cursor: pointer;
+ }
+ h2{
+     font-weight: bolder;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 15px rgb(12, 12, 12);
+     color: blanchedalmond;
+ }
+
+ #back-btn{
+     margin-left:50%;
+ }
